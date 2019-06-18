@@ -1,0 +1,135 @@
+﻿/*Mini screen sizes*/
+@media screen and (max-width: 320px){
+    .content-wrapper{
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .filter-options h2 {
+        display: none;
+    }
+    #restaurant-hours td{
+        display: table-header-group;
+    }
+    #restaurant-img{
+        margin-top : 25em;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    #restaurants-list li {
+        width: 100%;
+    }
+    .inside #map-container{
+        position: static;
+        width: 100%;
+        height: 40vh;
+        margin-bottom: 1em;
+    }
+    .inside .content-wrapper{
+        width: 100%;
+    }
+}
+
+/*Medium sizes screens*/
+@media screen and (max-width: 940px) {
+    .start main {
+        margin-top: 6em;
+    }
+
+    .start header{
+        height: 6em;
+    }
+    nav {
+        height: 4em;
+    }
+
+    .start nav {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .filter-options {
+        width: 100%;
+        height: 3em;
+        background-color: #eee;
+        justify-content: center;
+    }
+
+        .filter-options select {
+            margin: 0.5em;
+        }
+
+    #restaurants-list {
+        justify-content: center;
+    }
+
+    #map {
+        height: 40vh;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 940px) {
+    .inside #map-container {
+        left: 400px;
+        width: calc(100% - 400px);
+    }
+
+    .inside .content-wrapper {
+        width: 400px;
+    }
+
+    #restaurant-hours td {
+        display: table-header-group;
+    }
+}
+
+
+/*Large Sizes Screens*/
+
+@media screen and (min-width: 941px) and (max-width: 1220px) {
+    .content-wrapper {
+        width: 900px;
+    }
+    #restaurants-list li:nth-of-type(3n+0) {
+        margin-right: 0;
+    }
+
+}
+
+@media screen and (min-width: 1221px) and (max-width: 1540px) {
+    .content-wrapper {
+        width: 1200px;
+    }
+
+    #restaurants-list li:nth-of-type(4n+0) {
+        margin-right: 0;
+    }
+
+    #restaurant-img {
+        width: 280px;
+        height: 280px;
+    }
+}
+
+
+/*X-Large Sizes Screens*/
+
+@media screen and (min-width: 1541px) {
+    .content-wrapper {
+        width: 1500px;
+    }
+
+    #restaurants-list li:nth-of-type(5n+0) {
+        margin-right: 0;
+    }
+
+    #restaurant-img {
+        width: 400px;
+        height: 400px;
+    }
+}
