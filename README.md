@@ -32,8 +32,11 @@ Most of the code in this project has been written to the ES6 JavaScript specific
 ## Screenshots
 
 ![ScreenShot1](img/screenshots/ss1.jpg)
+======
 ![ScreenShot1](img/screenshots/ss2.jpg)
+======
 ![ScreenShot1](img/screenshots/ss3.jpg)
+======
 ![ScreenShot1](img/screenshots/ss4.jpg)
 ![ScreenShot1](img/screenshots/ss5.jpg)
 ![ScreenShot1](img/screenshots/ss6.jpg)
