@@ -24,9 +24,9 @@ const assets = [
     'https://unpkg.com/leaflet@1.3.1/dist/leaflet.js',
 ];
 /**
-  *Install the service worker and cache all the pages needed for the offline app
-  *from the assets array
-*/
+ *Install the service worker and cache all the pages needed for the offline app
+ *from the assets array
+ */
 self.addEventListener('install', function (event) {
     event.waitUntil(
         caches.open(staticCacheName)
@@ -37,7 +37,7 @@ self.addEventListener('install', function (event) {
 });
 /**
  *Activate the service worker and if there is an old cache, delete it
-*/
+ */
 self.addEventListener('activate', function (event) {
     event.waitUntil(
         caches.keys()
@@ -54,7 +54,7 @@ self.addEventListener('activate', function (event) {
 });
 /**
  *fetch all requests and match them with the cache to make them respond alike
-*/
+ */
 self.addEventListener('fetch', function (event) {
     event.respondWith(
         caches.match(event.request)
