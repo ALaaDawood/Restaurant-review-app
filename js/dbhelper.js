@@ -9,8 +9,9 @@ class DBHelper {
    */
     static get DATABASE_URL() {
         //return './data/restaurants.json';
-    const port = 49977 // Change this to your server port
-    return `http://localhost:${port}/data/restaurants.json`;
+    //const port = 49977 // Change this to your server port
+    //return `http://localhost:${port}/data/restaurants.json`;
+    return 'https://alaadawood.github.io/Restaurant-review-app/data/restaurants.json';
   }
 
   /**
